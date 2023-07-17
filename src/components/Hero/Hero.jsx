@@ -11,12 +11,11 @@ const Hero = () => {
         <div className="hero">
             <div className="left-h">
                 <Header/>
-                {/* the best ad */}
+                {/* The best ad */}
                 <div className="the-best-ad">
                     <div></div>
                     <span>the best fitness club in the town</span>
                 </div>
-
                 {/* Hero Heading */}
                 <div className="hero-text">
                     <div>
