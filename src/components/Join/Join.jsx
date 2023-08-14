@@ -5,16 +5,23 @@ const Join = () => {
     return(
         <div className="Join" id="join-us">
             <div className="left-j">
+                <hr/>
                 <div>
-                    <span>ready to</span>
+                    <span className="stroke-text">ready to</span>
                     <span>level up</span>
                 </div> 
                 <div>
                     <span>your body</span>
-                    <span>with us</span>
+                    <span className="stroke-text">with us</span>
                 </div>
             </div>
-            <div className="right-j"></div>
+            <div className="right-j">
+                <form action="" className="email-container">
+                    <input type="email" name="user_email"
+                    placeholder="Enter your Email address"/>
+                    <button className="btn btn-j">Join now</button>
+                </form>
+            </div>
         </div>
     )
 }
