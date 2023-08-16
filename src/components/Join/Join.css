@@ -44,3 +44,12 @@
     outline: none;
     color: var(--lightgray);
 }
+
+::placeholder{
+    color: var(--lightgray);
+}
+
+.btn-j{
+    background-color: var(--orange);
+    color: white;
+}
