@@ -11,7 +11,7 @@ import tick from "../../assets/tick.png";
 
 const Reasons = () => {
     return (
-        <div className="Reasons" id='reasons'>
+        <div className="reasons" id='reasons'>
             <div className="left-r">
                 <img src={image1} alt="" />
                 <img src={image2} alt="" />
@@ -21,7 +21,7 @@ const Reasons = () => {
             <div className="right-r">
                 <span>some reasons</span>
                 <div>
-                    <span className="stroke-text">why</span>
+                    <span className="stroke-text">why </span>
                     <span>choose us?</span>
                 </div>
 
