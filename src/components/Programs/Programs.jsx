@@ -24,7 +24,7 @@ const Programs = () => {
                             <img src={RightArrow}/>
                         </div>
                     </div>
-                ))};
+                ))}
             </div>
         </div>
     )
